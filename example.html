@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Flex properties demo</title>
+<style>
+  body { font-family: system-ui, Arial, sans-serif; margin: 24px; }
+  h2 { margin: 28px 0 12px; font-size: 18px; }
+  .note { color:#555; margin-bottom:10px; }
+
+  /* Generic item look */
+  .item { padding: 10px 14px; border: 1px solid #ccc; border-radius: 8px; }
+  .rowish { gap: 10px; margin-bottom: 8px; }
+
+  /* A: No flex (block flow) */
+  .no-flex .item { display: inline-block; } /* try removing this to see block stacking */
+
+  /* B: Flex, no wrap, default justify-content:flex-start */
+  .flex-nowarp { display: flex; flex-wrap: nowrap; }
+
+  /* C: Flex with wrap */
+  .flex-wrap { display: flex; flex-wrap: wrap; }
+
+  /* D: Flex with justify-content examples */
+  .jc-start        { display:flex; justify-content:flex-start; gap:10px; }
+  .jc-center       { display:flex; justify-content:center;    gap:10px; }
+  .jc-between      { display:flex; justify-content:space-between; }
+  .jc-around       { display:flex; justify-content:space-around; }
+  .jc-evenly       { display:flex; justify-content:space-evenly; }
+
+  /* Shared sizing so overflow/wrap is visible */
+  .bounded { max-width: 520px; border: 1px dashed #ddd; padding: 8px; }
+
+  /* Image grids */
+  .img-row { display:flex; flex-wrap: wrap; gap:10px; }
+  .img-row img { display:block; border-radius:8px; }
+
+  /* Fixed-height version */
+  .img-fixed img { height: 120px; /* width auto by default; keeps aspect ratio */ }
+
+  /* Optional: if you set both width and height, use object-fit to avoid distortion */
+  .img-fixed-cover img { width: 160px; height: 120px; object-fit: cover; }
+</style>
+</head>
+<body>
+
+<h2>A) Without <code>display:flex</code> (normal flow)</h2>
+<div class="note">Items just flow inline (or stack like blocks). No flex controls.</div>
+<div class="no-flex bounded rowish">
+  <div class="item">One</div>
+  <div class="item">Two</div>
+  <div class="item">Three is a bit longer</div>
+  <div class="item">Four</div>
+  <div class="item">Five</div>
+</div>
+
+<h2>B) With <code>display:flex</code>, default <code>flex-wrap: nowrap</code></h2>
+<div class="note">All items stay on one line and may overflow the box.</div>
+<div class="flex-nowarp bounded rowish">
+  <div class="item">One</div>
+  <div class="item">Two</div>
+  <div class="item">Three is a bit longer</div>
+  <div class="item">Four</div>
+  <div class="item">Five</div>
+  <div class="item">Six</div>
+  <div class="item">Seven</div>
+</div>
+
+<h2>C) With <code>flex-wrap: wrap</code></h2>
+<div class="note">Items wrap to the next line instead of overflowing.</div>
+<div class="flex-wrap bounded rowish">
+  <div class="item">One</div>
+  <div class="item">Two</div>
+  <div class="item">Three is a bit longer</div>
+  <div class="item">Four</div>
+  <div class="item">Five</div>
+  <div class="item">Six</div>
+  <div class="item">Seven</div>
+</div>
+
+<h2>D) <code>justify-content</code> differences (main-axis distribution)</h2>
+<div class="note">Default is <code>flex-start</code>. Others shown below.</div>
+<div class="jc-start bounded rowish">
+  <div class="item">A</div><div class="item">B</div><div class="item">C</div>
+</div>
+<div class="jc-center bounded rowish">
+  <div class="item">A</div><div class="item">B</div><div class="item">C</div>
+</div>
+<div class="jc-between bounded rowish">
+  <div class="item">A</div><div class="item">B</div><div class="item">C</div>
+</div>
+<div class="jc-around bounded rowish">
+  <div class="item">A</div><div class="item">B</div><div class="item">C</div>
+</div>
+<div class="jc-evenly bounded rowish">
+  <div class="item">A</div><div class="item">B</div><div class="item">C</div>
+</div>
+
+<h2>E) Images: no fixed height vs fixed height</h2>
+<div class="note">Top: intrinsic sizes (uneven). Bottom: fixed height for consistency.</div>
+
+<p><strong>Without height</strong> (intrinsic size):</p>
+<div class="img-row bounded">
+  <img src="https://picsum.photos/id/1015/360/220" alt="">
+  <img src="https://picsum.photos/id/1025/160/160" alt="">
+  <img src="https://picsum.photos/id/1035/220/300" alt="">
+  <img src="https://picsum.photos/id/1045/260/180" alt="">
+</div>
+
+<p><strong>With <code>img { height:120px; }</code></strong> (keeps aspect ratio):</p>
+<div class="img-row img-fixed bounded">
+  <img src="https://picsum.photos/id/1015/360/220" alt="">
+  <img src="https://picsum.photos/id/1025/160/160" alt="">
+  <img src="https://picsum.photos/id/1035/220/300" alt="">
+  <img src="https://picsum.photos/id/1045/260/180" alt="">
+</div>
+
+<p><strong>With fixed <em>width & height</em> + <code>object-fit: cover;</code></strong> (no distortion):</p>
+<div class="img-row img-fixed-cover bounded">
+  <img src="https://picsum.photos/id/1015/360/220" alt="">
+  <img src="https://picsum.photos/id/1025/160/160" alt="">
+  <img src="https://picsum.photos/id/1035/220/300" alt="">
+  <img src="https://picsum.photos/id/1045/260/180" alt="">
+</div>
+
+</body>
+</html>
