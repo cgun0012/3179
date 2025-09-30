@@ -1,45 +1,38 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 900,
-  "height": 580,
-  "config": {
-    "background": "#f8fafc",
-    "view": {"stroke": null},
-    "axis": {"labelFont": "system-ui", "titleFont": "system-ui"}
-  },
-  "title": {
-    "text": "Prevalence of Mental Illness (%) — Australia (2021)",
-    "subtitle": "Share of people who report having a mental health condition",
-    "anchor": "start",
-    "fontSize": 18
-  },
-  "projection": {"type": "equalEarth"},
-  "data": {
-    "url": "au_state.geojson"
-  },
-  "transform": [
-    {
-      "lookup": "properties.name",
-      "from": {
-        "data": {"url": "mental_health_prevalence_au.csv"},
-        "key": "state_name",
-        "fields": ["prevalence_percent"]
+  "width": 800,
+  "height": 450,
+  "title": "Prevalence of Mental Illness (%) — Australia (2021)",
+  "projection": {"type": "mercator"},
+      "data": { "url": "geoBoundaries-AUS-ADM1.topojson",
+      "format": {"type":"topojson", "feature":"AUSADM1gbOpen"}
+    },
+      "transform": [
+        {
+          "lookup": "properties.shapeName",
+          "from": {
+            "data": { "url": "mental_health_prevalence_au.csv" },
+            "key": "state_name",
+            "fields": ["prevalence_percent"]
+          }
+        },
+        { "calculate": "toNumber(datum.prevalence_percent)", "as": "prevalence_percent" },
+        { "filter": "isValid(datum.prevalence_percent)" }
+      ],
+      "mark": { "type": "geoshape", "stroke": "#94a3b8", "strokeWidth": 0.6 },
+      "encoding": {
+        "color": {
+          "field": "prevalence_percent",
+          "type": "quantitative",
+          "title": "Prevalence (%)",
+          "scale": { "scheme": "blues" },
+          "legend": { "format": ".1f" }
+        },
+        "tooltip": [
+          { "field": "properties.shapeName", "title": "State / Territory" },
+          { "field": "prevalence_percent", "title": "Prevalence (%)", "format": ".1f" }
+        ]
       }
-    },
-    { "calculate": "toNumber(datum.prevalence_percent)", "as": "prevalence_percent" }
-  ],
-  "mark": {"type": "geoshape", "stroke": "#94a3b8", "strokeWidth": 0.6},
-  "encoding": {
-    "color": {
-      "field": "prevalence_percent",
-      "type": "quantitative",
-      "title": "Prevalence (%)",
-      "scale": {"scheme": "blues"},
-      "legend": {"format": ".1f"}
-    },
-    "tooltip": [
-      {"field": "properties.name", "type": "nominal", "title": "State / Territory"},
-      {"field": "prevalence_percent", "type": "quantitative", "title": "Prevalence (%)", "format": ".1f"}
-    ]
-  }
-}
+    }
+  
+
