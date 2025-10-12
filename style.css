@@ -14,16 +14,17 @@ body {
     width: 850px;
     background-color: white;
     margin: auto;
+    padding: 50px;
     padding-top: 35px;
 }
 .vis-container {
     width: 100%;
 }
 .content-right{
-    margin-left: -20px;
+    padding-left: -20px;
 }
 .content-left{
-    margiin-right: 20px;
+    padding-right: 20px;
 }
 
 
