@@ -13,20 +13,23 @@
 
 </head>
 <body>
-    <div= page>
-        <div id="vis" class="vis-container"></div>
+    <div class= page>
+        <h2> The toll mental health has on human's overall well-being</h1>
+        <div id="vis" class="vis-container">
+            <div class="content-right">
+                <h4>test</h4>
+            </div>
+        </div>
+        
         <div id="vis1" class="vis-container"></div>
     </div>
 
-  <!-- Use correct type or omit it entirely -->
   <script>
-    // Map (no dropdown expected unless your map spec defines one)
     var vg_1 = "mental_health_map.vg.json";
     vegaEmbed("#vis", vg_1, { actions:false })
       .catch(console.error);
 
     var vg_2 = "prevalence_by_gender.json";
-    // Bars with dropdown (the control will appear under this chart)
     vegaEmbed("#vis1", vg_2, { actions:false })
       .catch(console.error);
   </script>
