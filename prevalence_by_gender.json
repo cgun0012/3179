@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Prevalence of Mental Health Conditions by Gender (2018–19)"},
+  "width": 420,
+  "height": 280,
+  "data": {"url": "prevalence_by_gender.csv"},
+  "params": [
+    {
+      "name": "diagType",
+      "value": "Ever diagnosed",
+      "bind": {
+        "input": "select",
+        "options": ["Ever diagnosed", "Current diagnosed"],
+        "name": "Select measure: "
+      }
+    }
+  ],
+  "transform": [{"filter": "datum.Type == diagType"}],
+  "layer": [
+    {
+      "mark": {"type": "bar", "cornerRadiusTopLeft": 4, "cornerRadiusTopRight": 4},
+      "encoding": {
+        "x": {"field": "Sex", "type": "nominal", "title": "Sex", "sort": ["Male", "Female", "Persons"]},
+        "y": {"field": "Percent", "type": "quantitative", "title": "With diagnosed condition (%)", "axis": {"format": ".1f"}, "scale": {"domain": [0, 50]}},
+        "color": {"field": "Sex", "legend": null},
+        "tooltip": [
+          {"field": "Sex", "title": "Sex"},
+          {"field": "Type", "title": "Measure"},
+          {"field": "Percent", "title": "Prevalence (%)", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text", 
+        "fontWeight": "bold",
+        "fontSize": 10, 
+        "dx": -12, 
+        "dy": -115},
+      "encoding": {"text": {"value": "Females report the higher prevalence compared to male"}}
+    }
+  ]
+}
