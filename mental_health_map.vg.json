@@ -8,7 +8,7 @@
   "layer": [
     {
       "data": { "graticule": { "step": [15,15], "extent": [[110,-46],[156,-8]] } },
-      "mark": { "type": "geoshape", "stroke": "#d1d5db", "strokeWidth": 0.6, "fill": null }
+      "mark": { "type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.6, "fill": null }
     },
     {
       "data": {
