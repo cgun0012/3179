@@ -15,11 +15,16 @@
 <body>
     <div class= page>
       <h2> Spreading Mental Health's Awareness</h2>
+      <div id="content-right">Content Right</div>
+      <div id="content-left">Content Left</div>
+      <div id ="vis3" class="vis-container"></div>
       <div id="vis"></div>
         <div id ="content-right"> Test 1</div>
       <div id="vis1" class="vis-container"></div>
       <p>test 2</p>
-      <div id="vis2" class="vis-container"></div>
+      <div id="vis2" class="vis-container"></div>\
+  
+
       
     </div>
 
@@ -35,6 +40,11 @@
     var vg_3 = "comorbid_conditions.json";
     vegaEmbed("#vis2", vg_3, { actions:false })
       .catch(console.error);
+
+     var vg_4 = "prevalence_general_diseases.json";
+    vegaEmbed("#vis3", vg_4, { actions:false })
+      .catch(console.error);
+    
   
   </script>
 </body>

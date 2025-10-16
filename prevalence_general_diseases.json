@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Common Diseases in AU over the Years"},
+  "width": 300,
+  "height": 300,
+  "data": {"url": "Prevalence_of_diseases_in_AU.csv"},
+  "mark":"line",
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "axis": { "labelAngle": 0, "title": null }
+    },
+    "y": { "field": "percentage", "type": "quantitative", "title": "Percentage (%)" },
+    "color": { "field": "condition", "type": "nominal", "title": null },
+    "tooltip": [
+      { "field": "year", "title": "Year" },
+      { "field": "condiiton", "title": "Disease" },
+      { "field": "percentage", "title": "Percent", "format": ".2f" }
+    ],
+    "column": { "field": "condition", "title": "Diseases" }
+  }
+}
