@@ -1,0 +1,41 @@
+response,sex,diseases,percentage
+Has a mental health condition (including depression or anxiety),Male,Arthritis,17.74146798
+Has a mental health condition (including depression or anxiety),Female,Arthritis,35.79683895
+Does not have a mental health condition (including depression or anxiety),Male,Arthritis,47.77430315
+Does not have a mental health condition (including depression or anxiety),Female,Arthritis,79.21046093
+Has a mental health condition (including depression or anxiety),Male,Asthma,15.23443299
+Has a mental health condition (including depression or anxiety),Female,Asthma,31.83470107
+Does not have a mental health condition (including depression or anxiety),Male,Asthma,66.53369158
+Does not have a mental health condition (including depression or anxiety),Female,Asthma,75.01262285
+Has a mental health condition (including depression or anxiety),Male,Cancer (including remission),12.03469265
+Has a mental health condition (including depression or anxiety),Female,Cancer (including remission),17.76783928
+Does not have a mental health condition (including depression or anxiety),Male,Cancer (including remission),80.53371705
+Does not have a mental health condition (including depression or anxiety),Female,Cancer (including remission),83.73261822
+Has a mental health condition (including depression or anxiety),Male,Dementia (including Alzheimer's),29.00811219
+Has a mental health condition (including depression or anxiety),Female,Dementia (including Alzheimer's),45.29262738
+Does not have a mental health condition (including depression or anxiety),Male,Dementia (including Alzheimer's),49.98693729
+Does not have a mental health condition (including depression or anxiety),Female,Dementia (including Alzheimer's),68.11437529
+Has a mental health condition (including depression or anxiety),Male,Diabetes (excluding gestational diabetes),13.45665129
+Has a mental health condition (including depression or anxiety),Female,Diabetes (excluding gestational diabetes),15.9907894
+Does not have a mental health condition (including depression or anxiety),Male,Diabetes (excluding gestational diabetes),103.7650357
+Does not have a mental health condition (including depression or anxiety),Female,Diabetes (excluding gestational diabetes),80.82719249
+Has a mental health condition (including depression or anxiety),Male,Heart disease (including heart attack or angina),13.37345933
+Has a mental health condition (including depression or anxiety),Female,Heart disease (including heart attack or angina),12.36634308
+Does not have a mental health condition (including depression or anxiety),Male,Heart disease (including heart attack or angina),133.0361267
+Does not have a mental health condition (including depression or anxiety),Female,Heart disease (including heart attack or angina),81.00948726
+Has a mental health condition (including depression or anxiety),Male,Kidney disease,17.07623815
+Has a mental health condition (including depression or anxiety),Female,Kidney disease,20.67811958
+Does not have a mental health condition (including depression or anxiety),Male,Kidney disease,87.90997813
+Does not have a mental health condition (including depression or anxiety),Female,Kidney disease,78.0767248
+Has a mental health condition (including depression or anxiety),Male,Lung condition (including COPD or emphysema),21.21790334
+Has a mental health condition (including depression or anxiety),Female,Lung condition (including COPD or emphysema),27.76264528
+Does not have a mental health condition (including depression or anxiety),Male,Lung condition (including COPD or emphysema),73.76574235
+Does not have a mental health condition (including depression or anxiety),Female,Lung condition (including COPD or emphysema),74.00234407
+Has a mental health condition (including depression or anxiety),Male,Stroke,17.95242435
+Has a mental health condition (including depression or anxiety),Female,Stroke,20.01854005
+Does not have a mental health condition (including depression or anxiety),Male,Stroke,97.31449817
+Does not have a mental health condition (including depression or anxiety),Female,Stroke,76.25259744
+Has a mental health condition (including depression or anxiety),Male,Any other long-term health condition(s),17.98407858
+Has a mental health condition (including depression or anxiety),Female,Any other long-term health condition(s),31.25457914
+Does not have a mental health condition (including depression or anxiety),Male,Any other long-term health condition(s),63.70083817
+Does not have a mental health condition (including depression or anxiety),Female,Any other long-term health condition(s),75.72529499

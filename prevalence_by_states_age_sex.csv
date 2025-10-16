@@ -1,0 +1,358 @@
+diagnosis,age_group,sex,states,percentage
+Does not have a mental health condition (including depression or anxiety),0-9 years,Female,ACT,93.47344316
+Does not have a mental health condition (including depression or anxiety),0-9 years,Female,Australia,91.31542935
+Does not have a mental health condition (including depression or anxiety),0-9 years,Female,NSW,91.20395647
+Does not have a mental health condition (including depression or anxiety),0-9 years,Female,NT,88.6583162
+Does not have a mental health condition (including depression or anxiety),0-9 years,Female,QLD,90.38014581
+Does not have a mental health condition (including depression or anxiety),0-9 years,Female,SA,92.48896963
+Does not have a mental health condition (including depression or anxiety),0-9 years,Female,Tas,90.86399339
+Does not have a mental health condition (including depression or anxiety),0-9 years,Female,Vic,91.76834421
+Does not have a mental health condition (including depression or anxiety),0-9 years,Female,WA,91.62262758
+Does not have a mental health condition (including depression or anxiety),0-9 years,Male,ACT,93.32336994
+Does not have a mental health condition (including depression or anxiety),0-9 years,Male,Australia,90.91951441
+Does not have a mental health condition (including depression or anxiety),0-9 years,Male,NSW,90.77116101
+Does not have a mental health condition (including depression or anxiety),0-9 years,Male,NT,88.59509959
+Does not have a mental health condition (including depression or anxiety),0-9 years,Male,QLD,89.91123539
+Does not have a mental health condition (including depression or anxiety),0-9 years,Male,SA,92.08778885
+Does not have a mental health condition (including depression or anxiety),0-9 years,Male,Tas,90.34709656
+Does not have a mental health condition (including depression or anxiety),0-9 years,Male,Vic,91.47065377
+Does not have a mental health condition (including depression or anxiety),0-9 years,Male,WA,91.1864821
+Has a mental health condition (including depression or anxiety),0-9 years,Female,ACT,0.890152914
+Has a mental health condition (including depression or anxiety),0-9 years,Female,Australia,0.769211573
+Has a mental health condition (including depression or anxiety),0-9 years,Female,NSW,0.665147019
+Has a mental health condition (including depression or anxiety),0-9 years,Female,QLD,1.020718973
+Has a mental health condition (including depression or anxiety),0-9 years,Female,SA,0.756812873
+Has a mental health condition (including depression or anxiety),0-9 years,Female,Tas,1.143723302
+Has a mental health condition (including depression or anxiety),0-9 years,Female,Vic,0.736832097
+Has a mental health condition (including depression or anxiety),0-9 years,Female,WA,0.632440247
+Has a mental health condition (including depression or anxiety),0-9 years,Male,ACT,1.261643264
+Has a mental health condition (including depression or anxiety),0-9 years,Male,Australia,1.162473154
+Has a mental health condition (including depression or anxiety),0-9 years,Male,NSW,1.098274599
+Has a mental health condition (including depression or anxiety),0-9 years,Male,NT,0.658088019
+Has a mental health condition (including depression or anxiety),0-9 years,Male,QLD,1.485978444
+Has a mental health condition (including depression or anxiety),0-9 years,Male,SA,1.076210245
+Has a mental health condition (including depression or anxiety),0-9 years,Male,Tas,1.51340681
+Has a mental health condition (including depression or anxiety),0-9 years,Male,Vic,1.070299258
+Has a mental health condition (including depression or anxiety),0-9 years,Male,WA,0.989753347
+Does not have a mental health condition (including depression or anxiety),10-19 years,Female,ACT,82.0292083
+Does not have a mental health condition (including depression or anxiety),10-19 years,Female,Australia,83.34871678
+Does not have a mental health condition (including depression or anxiety),10-19 years,Female,NSW,83.77098561
+Does not have a mental health condition (including depression or anxiety),10-19 years,Female,NT,85.11814288
+Does not have a mental health condition (including depression or anxiety),10-19 years,Female,QLD,82.10293841
+Does not have a mental health condition (including depression or anxiety),10-19 years,Female,SA,84.15109544
+Does not have a mental health condition (including depression or anxiety),10-19 years,Female,Tas,79.94058889
+Does not have a mental health condition (including depression or anxiety),10-19 years,Female,Vic,83.9352941
+Does not have a mental health condition (including depression or anxiety),10-19 years,Female,WA,83.48625597
+Does not have a mental health condition (including depression or anxiety),10-19 years,Male,ACT,86.06279401
+Does not have a mental health condition (including depression or anxiety),10-19 years,Male,Australia,86.02678175
+Does not have a mental health condition (including depression or anxiety),10-19 years,Male,NSW,86.23744664
+Does not have a mental health condition (including depression or anxiety),10-19 years,Male,NT,85.5984556
+Does not have a mental health condition (including depression or anxiety),10-19 years,Male,QLD,84.52438206
+Does not have a mental health condition (including depression or anxiety),10-19 years,Male,SA,87.31042756
+Does not have a mental health condition (including depression or anxiety),10-19 years,Male,Tas,83.36651861
+Does not have a mental health condition (including depression or anxiety),10-19 years,Male,Vic,86.81968228
+Does not have a mental health condition (including depression or anxiety),10-19 years,Male,WA,86.34652504
+Has a mental health condition (including depression or anxiety),10-19 years,Female,ACT,11.24135281
+Has a mental health condition (including depression or anxiety),10-19 years,Female,Australia,8.270707174
+Has a mental health condition (including depression or anxiety),10-19 years,Female,NSW,7.820375646
+Has a mental health condition (including depression or anxiety),10-19 years,Female,NT,4.1108194
+Has a mental health condition (including depression or anxiety),10-19 years,Female,QLD,8.848129816
+Has a mental health condition (including depression or anxiety),10-19 years,Female,SA,8.5469655
+Has a mental health condition (including depression or anxiety),10-19 years,Female,Tas,11.28811125
+Has a mental health condition (including depression or anxiety),10-19 years,Female,Vic,8.091508578
+Has a mental health condition (including depression or anxiety),10-19 years,Female,WA,7.987250814
+Has a mental health condition (including depression or anxiety),10-19 years,Male,ACT,6.917550961
+Has a mental health condition (including depression or anxiety),10-19 years,Male,Australia,5.34440842
+Has a mental health condition (including depression or anxiety),10-19 years,Male,NSW,5.062267901
+Has a mental health condition (including depression or anxiety),10-19 years,Male,NT,2.972972973
+Has a mental health condition (including depression or anxiety),10-19 years,Male,QLD,6.128022895
+Has a mental health condition (including depression or anxiety),10-19 years,Male,SA,5.050505051
+Has a mental health condition (including depression or anxiety),10-19 years,Male,Tas,7.434522898
+Has a mental health condition (including depression or anxiety),10-19 years,Male,Vic,5.027336497
+Has a mental health condition (including depression or anxiety),10-19 years,Male,WA,5.086859047
+Does not have a mental health condition (including depression or anxiety),20-29 years,Female,ACT,73.85822054
+Does not have a mental health condition (including depression or anxiety),20-29 years,Female,Australia,76.02331878
+Does not have a mental health condition (including depression or anxiety),20-29 years,Female,NSW,77.781159
+Does not have a mental health condition (including depression or anxiety),20-29 years,Female,NT,80.09371555
+Does not have a mental health condition (including depression or anxiety),20-29 years,Female,QLD,73.55784519
+Does not have a mental health condition (including depression or anxiety),20-29 years,Female,SA,76.17136053
+Does not have a mental health condition (including depression or anxiety),20-29 years,Female,Tas,72.20703693
+Does not have a mental health condition (including depression or anxiety),20-29 years,Female,Vic,76.49215549
+Does not have a mental health condition (including depression or anxiety),20-29 years,Female,WA,75.02172863
+Does not have a mental health condition (including depression or anxiety),20-29 years,Male,ACT,82.48553814
+Does not have a mental health condition (including depression or anxiety),20-29 years,Male,Australia,82.2083785
+Does not have a mental health condition (including depression or anxiety),20-29 years,Male,NSW,83.20555399
+Does not have a mental health condition (including depression or anxiety),20-29 years,Male,NT,80.66824492
+Does not have a mental health condition (including depression or anxiety),20-29 years,Male,QLD,79.64596221
+Does not have a mental health condition (including depression or anxiety),20-29 years,Male,SA,83.11877202
+Does not have a mental health condition (including depression or anxiety),20-29 years,Male,Tas,80.97956646
+Does not have a mental health condition (including depression or anxiety),20-29 years,Male,Vic,83.4622521
+Does not have a mental health condition (including depression or anxiety),20-29 years,Male,WA,80.59699728
+Has a mental health condition (including depression or anxiety),20-29 years,Female,ACT,19.80173752
+Has a mental health condition (including depression or anxiety),20-29 years,Female,Australia,16.01443819
+Has a mental health condition (including depression or anxiety),20-29 years,Female,NSW,14.2609513
+Has a mental health condition (including depression or anxiety),20-29 years,Female,NT,8.715545755
+Has a mental health condition (including depression or anxiety),20-29 years,Female,QLD,17.46128448
+Has a mental health condition (including depression or anxiety),20-29 years,Female,SA,17.48696484
+Has a mental health condition (including depression or anxiety),20-29 years,Female,Tas,20.45362024
+Has a mental health condition (including depression or anxiety),20-29 years,Female,Vic,16.08526865
+Has a mental health condition (including depression or anxiety),20-29 years,Female,WA,16.45098986
+Has a mental health condition (including depression or anxiety),20-29 years,Male,ACT,9.891094756
+Has a mental health condition (including depression or anxiety),20-29 years,Male,Australia,8.231660514
+Has a mental health condition (including depression or anxiety),20-29 years,Male,NSW,7.45398255
+Has a mental health condition (including depression or anxiety),20-29 years,Male,NT,4.153664048
+Has a mental health condition (including depression or anxiety),20-29 years,Male,QLD,9.205340722
+Has a mental health condition (including depression or anxiety),20-29 years,Male,SA,9.171738509
+Has a mental health condition (including depression or anxiety),20-29 years,Male,Tas,10.70287991
+Has a mental health condition (including depression or anxiety),20-29 years,Male,Vic,8.013777012
+Has a mental health condition (including depression or anxiety),20-29 years,Male,WA,8.269298972
+Does not have a mental health condition (including depression or anxiety),30-39 years,Female,ACT,79.61266139
+Does not have a mental health condition (including depression or anxiety),30-39 years,Female,Australia,79.70850799
+Does not have a mental health condition (including depression or anxiety),30-39 years,Female,NSW,81.25120826
+Does not have a mental health condition (including depression or anxiety),30-39 years,Female,NT,81.87954309
+Does not have a mental health condition (including depression or anxiety),30-39 years,Female,QLD,77.37916337
+Does not have a mental health condition (including depression or anxiety),30-39 years,Female,SA,78.90682837
+Does not have a mental health condition (including depression or anxiety),30-39 years,Female,Tas,74.76670904
+Does not have a mental health condition (including depression or anxiety),30-39 years,Female,Vic,80.26560178
+Does not have a mental health condition (including depression or anxiety),30-39 years,Female,WA,79.17156068
+Does not have a mental health condition (including depression or anxiety),30-39 years,Male,ACT,84.41959017
+Does not have a mental health condition (including depression or anxiety),30-39 years,Male,Australia,82.8719863
+Does not have a mental health condition (including depression or anxiety),30-39 years,Male,NSW,84.22906888
+Does not have a mental health condition (including depression or anxiety),30-39 years,Male,NT,80.2608092
+Does not have a mental health condition (including depression or anxiety),30-39 years,Male,QLD,80.22598215
+Does not have a mental health condition (including depression or anxiety),30-39 years,Male,SA,82.64522919
+Does not have a mental health condition (including depression or anxiety),30-39 years,Male,Tas,80.63511656
+Does not have a mental health condition (including depression or anxiety),30-39 years,Male,Vic,84.16520425
+Does not have a mental health condition (including depression or anxiety),30-39 years,Male,WA,80.95208858
+Has a mental health condition (including depression or anxiety),30-39 years,Female,ACT,15.12911287
+Has a mental health condition (including depression or anxiety),30-39 years,Female,Australia,12.91563595
+Has a mental health condition (including depression or anxiety),30-39 years,Female,NSW,11.26373211
+Has a mental health condition (including depression or anxiety),30-39 years,Female,NT,7.807042386
+Has a mental health condition (including depression or anxiety),30-39 years,Female,QLD,14.42990246
+Has a mental health condition (including depression or anxiety),30-39 years,Female,SA,15.03838827
+Has a mental health condition (including depression or anxiety),30-39 years,Female,Tas,18.46311974
+Has a mental health condition (including depression or anxiety),30-39 years,Female,Vic,12.83906611
+Has a mental health condition (including depression or anxiety),30-39 years,Female,WA,13.07631692
+Has a mental health condition (including depression or anxiety),30-39 years,Male,ACT,9.237206308
+Has a mental health condition (including depression or anxiety),30-39 years,Male,Australia,8.045842727
+Has a mental health condition (including depression or anxiety),30-39 years,Male,NSW,7.090102105
+Has a mental health condition (including depression or anxiety),30-39 years,Male,NT,4.933558112
+Has a mental health condition (including depression or anxiety),30-39 years,Male,QLD,9.140108935
+Has a mental health condition (including depression or anxiety),30-39 years,Male,SA,9.496264985
+Has a mental health condition (including depression or anxiety),30-39 years,Male,Tas,10.99110725
+Has a mental health condition (including depression or anxiety),30-39 years,Male,Vic,7.98571278
+Has a mental health condition (including depression or anxiety),30-39 years,Male,WA,7.756185915
+Does not have a mental health condition (including depression or anxiety),40-49 years,Female,ACT,80.41390461
+Does not have a mental health condition (including depression or anxiety),40-49 years,Female,Australia,79.93962377
+Does not have a mental health condition (including depression or anxiety),40-49 years,Female,NSW,81.19494781
+Does not have a mental health condition (including depression or anxiety),40-49 years,Female,NT,81.04413074
+Does not have a mental health condition (including depression or anxiety),40-49 years,Female,QLD,78.04802132
+Does not have a mental health condition (including depression or anxiety),40-49 years,Female,SA,79.04898952
+Does not have a mental health condition (including depression or anxiety),40-49 years,Female,Tas,74.38596491
+Does not have a mental health condition (including depression or anxiety),40-49 years,Female,Vic,80.47605857
+Does not have a mental health condition (including depression or anxiety),40-49 years,Female,WA,79.99604453
+Does not have a mental health condition (including depression or anxiety),40-49 years,Male,ACT,83.91961446
+Does not have a mental health condition (including depression or anxiety),40-49 years,Male,Australia,82.08897624
+Does not have a mental health condition (including depression or anxiety),40-49 years,Male,NSW,83.40221837
+Does not have a mental health condition (including depression or anxiety),40-49 years,Male,NT,79.33747938
+Does not have a mental health condition (including depression or anxiety),40-49 years,Male,QLD,79.7309439
+Does not have a mental health condition (including depression or anxiety),40-49 years,Male,SA,81.65940082
+Does not have a mental health condition (including depression or anxiety),40-49 years,Male,Tas,78.11475937
+Does not have a mental health condition (including depression or anxiety),40-49 years,Male,Vic,83.29921606
+Does not have a mental health condition (including depression or anxiety),40-49 years,Male,WA,80.70839338
+Has a mental health condition (including depression or anxiety),40-49 years,Female,ACT,14.48666128
+Has a mental health condition (including depression or anxiety),40-49 years,Female,Australia,12.75934947
+Has a mental health condition (including depression or anxiety),40-49 years,Female,NSW,11.42677845
+Has a mental health condition (including depression or anxiety),40-49 years,Female,NT,7.783288821
+Has a mental health condition (including depression or anxiety),40-49 years,Female,QLD,14.0773903
+Has a mental health condition (including depression or anxiety),40-49 years,Female,SA,14.58938606
+Has a mental health condition (including depression or anxiety),40-49 years,Female,Tas,18.63847653
+Has a mental health condition (including depression or anxiety),40-49 years,Female,Vic,12.63259088
+Has a mental health condition (including depression or anxiety),40-49 years,Female,WA,12.38232469
+Has a mental health condition (including depression or anxiety),40-49 years,Male,ACT,9.854768383
+Has a mental health condition (including depression or anxiety),40-49 years,Male,Australia,8.831078231
+Has a mental health condition (including depression or anxiety),40-49 years,Male,NSW,7.980517048
+Has a mental health condition (including depression or anxiety),40-49 years,Male,NT,5.489275289
+Has a mental health condition (including depression or anxiety),40-49 years,Male,QLD,9.940773429
+Has a mental health condition (including depression or anxiety),40-49 years,Male,SA,10.3540588
+Has a mental health condition (including depression or anxiety),40-49 years,Male,Tas,13.11765084
+Has a mental health condition (including depression or anxiety),40-49 years,Male,Vic,8.682464045
+Has a mental health condition (including depression or anxiety),40-49 years,Male,WA,8.030841153
+Does not have a mental health condition (including depression or anxiety),50-59 years,Female,ACT,81.52577798
+Does not have a mental health condition (including depression or anxiety),50-59 years,Female,Australia,80.15031174
+Does not have a mental health condition (including depression or anxiety),50-59 years,Female,NSW,81.0683169
+Does not have a mental health condition (including depression or anxiety),50-59 years,Female,NT,81.60305894
+Does not have a mental health condition (including depression or anxiety),50-59 years,Female,QLD,78.5500864
+Does not have a mental health condition (including depression or anxiety),50-59 years,Female,SA,79.40693909
+Does not have a mental health condition (including depression or anxiety),50-59 years,Female,Tas,76.55841239
+Does not have a mental health condition (including depression or anxiety),50-59 years,Female,Vic,80.54208169
+Does not have a mental health condition (including depression or anxiety),50-59 years,Female,WA,80.6092182
+Does not have a mental health condition (including depression or anxiety),50-59 years,Male,ACT,84.22083633
+Does not have a mental health condition (including depression or anxiety),50-59 years,Male,Australia,82.1269556
+Does not have a mental health condition (including depression or anxiety),50-59 years,Male,NSW,83.00266368
+Does not have a mental health condition (including depression or anxiety),50-59 years,Male,NT,79.43508424
+Does not have a mental health condition (including depression or anxiety),50-59 years,Male,QLD,80.30434522
+Does not have a mental health condition (including depression or anxiety),50-59 years,Male,SA,81.6708771
+Does not have a mental health condition (including depression or anxiety),50-59 years,Male,Tas,79.71303308
+Does not have a mental health condition (including depression or anxiety),50-59 years,Male,Vic,83.19608158
+Does not have a mental health condition (including depression or anxiety),50-59 years,Male,WA,81.33138303
+Has a mental health condition (including depression or anxiety),50-59 years,Female,ACT,13.29540176
+Has a mental health condition (including depression or anxiety),50-59 years,Female,Australia,12.60565788
+Has a mental health condition (including depression or anxiety),50-59 years,Female,NSW,11.68895043
+Has a mental health condition (including depression or anxiety),50-59 years,Female,NT,7.315489503
+Has a mental health condition (including depression or anxiety),50-59 years,Female,QLD,13.67056254
+Has a mental health condition (including depression or anxiety),50-59 years,Female,SA,14.24583165
+Has a mental health condition (including depression or anxiety),50-59 years,Female,Tas,16.49974896
+Has a mental health condition (including depression or anxiety),50-59 years,Female,Vic,12.54496953
+Has a mental health condition (including depression or anxiety),50-59 years,Female,WA,11.73559101
+Has a mental health condition (including depression or anxiety),50-59 years,Male,ACT,9.590629248
+Has a mental health condition (including depression or anxiety),50-59 years,Male,Australia,9.010805077
+Has a mental health condition (including depression or anxiety),50-59 years,Male,NSW,8.544853766
+Has a mental health condition (including depression or anxiety),50-59 years,Male,NT,6.024352258
+Has a mental health condition (including depression or anxiety),50-59 years,Male,QLD,9.796861243
+Has a mental health condition (including depression or anxiety),50-59 years,Male,SA,10.43300979
+Has a mental health condition (including depression or anxiety),50-59 years,Male,Tas,11.92279223
+Has a mental health condition (including depression or anxiety),50-59 years,Male,Vic,8.815140562
+Has a mental health condition (including depression or anxiety),50-59 years,Male,WA,7.920833458
+Does not have a mental health condition (including depression or anxiety),60-69 years,Female,ACT,85.06253553
+Does not have a mental health condition (including depression or anxiety),60-69 years,Female,Australia,82.52124343
+Does not have a mental health condition (including depression or anxiety),60-69 years,Female,NSW,83.14355509
+Does not have a mental health condition (including depression or anxiety),60-69 years,Female,NT,82.78380634
+Does not have a mental health condition (including depression or anxiety),60-69 years,Female,QLD,81.50028999
+Does not have a mental health condition (including depression or anxiety),60-69 years,Female,SA,82.17472654
+Does not have a mental health condition (including depression or anxiety),60-69 years,Female,Tas,80.58953807
+Does not have a mental health condition (including depression or anxiety),60-69 years,Female,Vic,82.43867557
+Does not have a mental health condition (including depression or anxiety),60-69 years,Female,WA,83.16505042
+Does not have a mental health condition (including depression or anxiety),60-69 years,Male,ACT,86.56076251
+Does not have a mental health condition (including depression or anxiety),60-69 years,Male,Australia,84.26117959
+Does not have a mental health condition (including depression or anxiety),60-69 years,Male,NSW,84.90007229
+Does not have a mental health condition (including depression or anxiety),60-69 years,Male,NT,82.41055367
+Does not have a mental health condition (including depression or anxiety),60-69 years,Male,QLD,82.79223863
+Does not have a mental health condition (including depression or anxiety),60-69 years,Male,SA,84.21978994
+Does not have a mental health condition (including depression or anxiety),60-69 years,Male,Tas,82.76927398
+Does not have a mental health condition (including depression or anxiety),60-69 years,Male,Vic,84.77181194
+Does not have a mental health condition (including depression or anxiety),60-69 years,Male,WA,84.22528458
+Has a mental health condition (including depression or anxiety),60-69 years,Female,ACT,9.711957552
+Has a mental health condition (including depression or anxiety),60-69 years,Female,Australia,10.74332932
+Has a mental health condition (including depression or anxiety),60-69 years,Female,NSW,10.11391049
+Has a mental health condition (including depression or anxiety),60-69 years,Female,NT,6.312604341
+Has a mental health condition (including depression or anxiety),60-69 years,Female,QLD,11.44394885
+Has a mental health condition (including depression or anxiety),60-69 years,Female,SA,11.93508923
+Has a mental health condition (including depression or anxiety),60-69 years,Female,Tas,12.79793293
+Has a mental health condition (including depression or anxiety),60-69 years,Female,Vic,10.95379799
+Has a mental health condition (including depression or anxiety),60-69 years,Female,WA,9.833186401
+Has a mental health condition (including depression or anxiety),60-69 years,Male,ACT,7.905745301
+Has a mental health condition (including depression or anxiety),60-69 years,Male,Australia,8.130019887
+Has a mental health condition (including depression or anxiety),60-69 years,Male,NSW,7.734427835
+Has a mental health condition (including depression or anxiety),60-69 years,Male,NT,5.356785928
+Has a mental health condition (including depression or anxiety),60-69 years,Male,QLD,8.940847293
+Has a mental health condition (including depression or anxiety),60-69 years,Male,SA,9.191897819
+Has a mental health condition (including depression or anxiety),60-69 years,Male,Tas,9.532369049
+Has a mental health condition (including depression or anxiety),60-69 years,Male,Vic,8.003731741
+Has a mental health condition (including depression or anxiety),60-69 years,Male,WA,7.127861278
+Does not have a mental health condition (including depression or anxiety),70-79 years,Female,ACT,87.49595495
+Does not have a mental health condition (including depression or anxiety),70-79 years,Female,Australia,84.93249752
+Does not have a mental health condition (including depression or anxiety),70-79 years,Female,NSW,85.25415912
+Does not have a mental health condition (including depression or anxiety),70-79 years,Female,NT,84.00452489
+Does not have a mental health condition (including depression or anxiety),70-79 years,Female,QLD,84.42637068
+Does not have a mental health condition (including depression or anxiety),70-79 years,Female,SA,85.20096577
+Does not have a mental health condition (including depression or anxiety),70-79 years,Female,Tas,84.19652805
+Does not have a mental health condition (including depression or anxiety),70-79 years,Female,Vic,84.55529104
+Does not have a mental health condition (including depression or anxiety),70-79 years,Female,WA,85.52103854
+Does not have a mental health condition (including depression or anxiety),70-79 years,Male,ACT,88.34756777
+Does not have a mental health condition (including depression or anxiety),70-79 years,Male,Australia,85.95535242
+Does not have a mental health condition (including depression or anxiety),70-79 years,Male,NSW,86.42054918
+Does not have a mental health condition (including depression or anxiety),70-79 years,Male,NT,83.06942753
+Does not have a mental health condition (including depression or anxiety),70-79 years,Male,QLD,84.75796692
+Does not have a mental health condition (including depression or anxiety),70-79 years,Male,SA,86.31624334
+Does not have a mental health condition (including depression or anxiety),70-79 years,Male,Tas,85.48021949
+Does not have a mental health condition (including depression or anxiety),70-79 years,Male,Vic,86.08643452
+Does not have a mental health condition (including depression or anxiety),70-79 years,Male,WA,86.29498732
+Has a mental health condition (including depression or anxiety),70-79 years,Female,ACT,7.294026277
+Has a mental health condition (including depression or anxiety),70-79 years,Female,Australia,8.041198433
+Has a mental health condition (including depression or anxiety),70-79 years,Female,NSW,7.609550824
+Has a mental health condition (including depression or anxiety),70-79 years,Female,NT,5.158371041
+Has a mental health condition (including depression or anxiety),70-79 years,Female,QLD,8.383408286
+Has a mental health condition (including depression or anxiety),70-79 years,Female,SA,8.729820575
+Has a mental health condition (including depression or anxiety),70-79 years,Female,Tas,8.453437803
+Has a mental health condition (including depression or anxiety),70-79 years,Female,Vic,8.480387764
+Has a mental health condition (including depression or anxiety),70-79 years,Female,WA,7.174824468
+Has a mental health condition (including depression or anxiety),70-79 years,Male,ACT,6.216115856
+Has a mental health condition (including depression or anxiety),70-79 years,Male,Australia,6.853650482
+Has a mental health condition (including depression or anxiety),70-79 years,Male,NSW,6.310635568
+Has a mental health condition (including depression or anxiety),70-79 years,Male,NT,4.933008526
+Has a mental health condition (including depression or anxiety),70-79 years,Male,QLD,7.846409843
+Has a mental health condition (including depression or anxiety),70-79 years,Male,SA,7.591198913
+Has a mental health condition (including depression or anxiety),70-79 years,Male,Tas,7.459422125
+Has a mental health condition (including depression or anxiety),70-79 years,Male,Vic,6.700899586
+Has a mental health condition (including depression or anxiety),70-79 years,Male,WA,6.359516456
+Does not have a mental health condition (including depression or anxiety),80-89 years,Female,ACT,85.74558201
+Does not have a mental health condition (including depression or anxiety),80-89 years,Female,Australia,81.6116615
+Does not have a mental health condition (including depression or anxiety),80-89 years,Female,NSW,81.48694507
+Does not have a mental health condition (including depression or anxiety),80-89 years,Female,NT,81.89655172
+Does not have a mental health condition (including depression or anxiety),80-89 years,Female,QLD,81.48569304
+Does not have a mental health condition (including depression or anxiety),80-89 years,Female,SA,82.27015303
+Does not have a mental health condition (including depression or anxiety),80-89 years,Female,Tas,82.58018644
+Does not have a mental health condition (including depression or anxiety),80-89 years,Female,Vic,80.97052211
+Does not have a mental health condition (including depression or anxiety),80-89 years,Female,WA,82.62057775
+Does not have a mental health condition (including depression or anxiety),80-89 years,Male,ACT,88.16499614
+Does not have a mental health condition (including depression or anxiety),80-89 years,Male,Australia,85.04957538
+Does not have a mental health condition (including depression or anxiety),80-89 years,Male,NSW,85.10932657
+Does not have a mental health condition (including depression or anxiety),80-89 years,Male,NT,83.86837881
+Does not have a mental health condition (including depression or anxiety),80-89 years,Male,QLD,84.24890292
+Does not have a mental health condition (including depression or anxiety),80-89 years,Male,SA,86.12118559
+Does not have a mental health condition (including depression or anxiety),80-89 years,Male,Tas,84.58263194
+Does not have a mental health condition (including depression or anxiety),80-89 years,Male,Vic,84.92710228
+Does not have a mental health condition (including depression or anxiety),80-89 years,Male,WA,85.63127169
+Has a mental health condition (including depression or anxiety),80-89 years,Female,ACT,7.799036074
+Has a mental health condition (including depression or anxiety),80-89 years,Female,Australia,9.167730302
+Has a mental health condition (including depression or anxiety),80-89 years,Female,NSW,8.563866276
+Has a mental health condition (including depression or anxiety),80-89 years,Female,NT,6.896551724
+Has a mental health condition (including depression or anxiety),80-89 years,Female,QLD,9.080571622
+Has a mental health condition (including depression or anxiety),80-89 years,Female,SA,10.11688155
+Has a mental health condition (including depression or anxiety),80-89 years,Female,Tas,8.903460262
+Has a mental health condition (including depression or anxiety),80-89 years,Female,Vic,10.25480889
+Has a mental health condition (including depression or anxiety),80-89 years,Female,WA,8.021436044
+Has a mental health condition (including depression or anxiety),80-89 years,Male,ACT,5.956052429
+Has a mental health condition (including depression or anxiety),80-89 years,Male,Australia,6.130860514
+Has a mental health condition (including depression or anxiety),80-89 years,Male,NSW,5.639844493
+Has a mental health condition (including depression or anxiety),80-89 years,Male,NT,4.895666132
+Has a mental health condition (including depression or anxiety),80-89 years,Male,QLD,6.644011559
+Has a mental health condition (including depression or anxiety),80-89 years,Male,SA,6.734617309
+Has a mental health condition (including depression or anxiety),80-89 years,Male,Tas,6.337261115
+Has a mental health condition (including depression or anxiety),80-89 years,Male,Vic,6.515076917
+Has a mental health condition (including depression or anxiety),80-89 years,Male,WA,5.291759705
+Does not have a mental health condition (including depression or anxiety),90-99 years,Female,ACT,81.46832445
+Does not have a mental health condition (including depression or anxiety),90-99 years,Female,Australia,73.63051707
+Does not have a mental health condition (including depression or anxiety),90-99 years,Female,NSW,72.80722402
+Does not have a mental health condition (including depression or anxiety),90-99 years,Female,NT,73.02904564
+Does not have a mental health condition (including depression or anxiety),90-99 years,Female,QLD,72.83157412
+Does not have a mental health condition (including depression or anxiety),90-99 years,Female,SA,76.37940728
+Does not have a mental health condition (including depression or anxiety),90-99 years,Female,Tas,77.82790848
+Does not have a mental health condition (including depression or anxiety),90-99 years,Female,Vic,73.16262705
+Does not have a mental health condition (including depression or anxiety),90-99 years,Female,WA,74.7966805
+Does not have a mental health condition (including depression or anxiety),90-99 years,Male,ACT,82.88288288
+Does not have a mental health condition (including depression or anxiety),90-99 years,Male,Australia,78.88166989
+Does not have a mental health condition (including depression or anxiety),90-99 years,Male,NSW,77.96423771
+Does not have a mental health condition (including depression or anxiety),90-99 years,Male,NT,74.83443709
+Does not have a mental health condition (including depression or anxiety),90-99 years,Male,QLD,78.37345581
+Does not have a mental health condition (including depression or anxiety),90-99 years,Male,SA,81.57570151
+Does not have a mental health condition (including depression or anxiety),90-99 years,Male,Tas,81.67475728
+Does not have a mental health condition (including depression or anxiety),90-99 years,Male,Vic,79.1987513
+Does not have a mental health condition (including depression or anxiety),90-99 years,Male,WA,78.50579907
+Has a mental health condition (including depression or anxiety),90-99 years,Female,ACT,10.59798697
+Has a mental health condition (including depression or anxiety),90-99 years,Female,Australia,13.22185881
+Has a mental health condition (including depression or anxiety),90-99 years,Female,NSW,11.97226799
+Has a mental health condition (including depression or anxiety),90-99 years,Female,QLD,13.45487922
+Has a mental health condition (including depression or anxiety),90-99 years,Female,SA,14.97871657
+Has a mental health condition (including depression or anxiety),90-99 years,Female,Tas,13.1485659
+Has a mental health condition (including depression or anxiety),90-99 years,Female,Vic,14.93354183
+Has a mental health condition (including depression or anxiety),90-99 years,Female,WA,11.21991701
+Has a mental health condition (including depression or anxiety),90-99 years,Male,ACT,7.907907908
+Has a mental health condition (including depression or anxiety),90-99 years,Male,Australia,8.473873376
+Has a mental health condition (including depression or anxiety),90-99 years,Male,NSW,7.470164148
+Has a mental health condition (including depression or anxiety),90-99 years,Male,QLD,8.900855242
+Has a mental health condition (including depression or anxiety),90-99 years,Male,SA,9.327782917
+Has a mental health condition (including depression or anxiety),90-99 years,Male,Tas,8.677184466
+Has a mental health condition (including depression or anxiety),90-99 years,Male,Vic,9.625390219
+Has a mental health condition (including depression or anxiety),90-99 years,Male,WA,7.1998795
