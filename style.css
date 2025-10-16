@@ -1,24 +1,24 @@
-body *{
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1 {
-    font-weight: 900;
-}
+* { box-sizing: border-box; }
 
 body {
+    margin: 0;                 
     background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-weight: 900;
 }
 
 .page {
     width: 950px;
     background-color: white;
-    margin: auto;
-    padding: 50px;
-    padding-top: 35px;
+    margin-left:0;
+    margin-right:auto;
+    padding: 35px 50px 50px;
 }
 .vis-container {
-    width: 50%;
+    width: 100%;
+    margin:0;
 }
 .content-right{
     padding-left: 20px;
