@@ -18,6 +18,6 @@
       { "field": "diseases", "title": "Disease" },
       { "field": "percentage", "title": "Percent", "format": ".2f" }
     ],
-    "column": { "field": "diseases", "title": "Sex" }
+    "column": { "field": "diseases", "title": "Diseases" }
   }
 }
