@@ -19,6 +19,7 @@
         <div id ="content-right"> Test 1</div>
       <div id="vis1" class="vis-container"></div>
       <p>test 2</p>
+      <div id="vis2" class="vis-container"></div>
     </div>
 
   <script>
@@ -29,6 +30,12 @@
     var vg_2 = "prevalence_by_gender.json";
     vegaEmbed("#vis1", vg_2, { actions:false })
       .catch(console.error);
+    
+    var vg_3 = "comorbid_conditions.json";
+    vegaEmbed("#vis2", vg_3, { actions:false })
+      .catch(console.error);
+    
+
   </script>
 </body>
 </html>

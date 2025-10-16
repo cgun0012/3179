@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Coexisting Health Conditions by Mental Health Status"},
+  "width": 300,
+  "height": 200,
+  "data": {"url": "prevalence_by_comorbid_conditions.csv"},
+  "encoding": {
+    "x": {
+      "field": "diseases",
+      "type": "nominal",
+      "axis": { "labelAngle": -30, "title": null }
+    },
+    "y": { "field": "percentage", "type": "quantitative", "title": "Percentage (%)" },
+    "color": { "field": "response", "type": "nominal", "title": "Mental health status" },
+    "tooltip": [
+      { "field": "sex", "title": "Sex" },
+      { "field": "response", "title": "Mental health status" },
+      { "field": "diseases", "title": "Disease" },
+      { "field": "percentage", "title": "Percent", "format": ".2f" }
+    ],
+    "column": { "field": "sex", "title": "Sex" }
+  },
+  "config": {
+    "view": { "stroke": null },
+    "axis": { "grid": true }
+  }
+}
