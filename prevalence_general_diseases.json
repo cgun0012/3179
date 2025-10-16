@@ -22,7 +22,6 @@
       { "field": "year", "title": "Year" },
       { "field": "condiiton", "title": "Disease" },
       { "field": "percentage", "title": "Percent", "format": ".2f" }
-    ],
-    "column": { "field": "condition", "title": "Diseases" }
+    ]
   }
 }

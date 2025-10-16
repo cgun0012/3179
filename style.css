@@ -20,11 +20,21 @@ h1 {
     width: 100%;
     margin:0;
 }
-.content-right{
-    padding-left: 20px;
+.row {
+  display: flex;
+  gap: 20px;              /* space between columns */
 }
-.content-left{
-    padding-right: 20px;
+.content-left, .content-right {
+  flex: 1;
+  box-sizing: border-box; /* padding won’t cause overflow */
+  padding-left: 12px;          /* inner breathing room (optional) */
 }
+.content-right {
+  flex: 1;
+  box-sizing: border-box; /* padding won’t cause overflow */
+  padding-right: 12px;          /* inner breathing room (optional) */
+}
+
+
 
 
