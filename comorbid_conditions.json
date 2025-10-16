@@ -4,6 +4,7 @@
   "width": 300,
   "height": 200,
   "data": {"url": "prevalence_by_comorbid_conditions.csv"},
+  "mark":"bar",
   "encoding": {
     "x": {
       "field": "diseases",
