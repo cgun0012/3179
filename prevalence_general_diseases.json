@@ -17,7 +17,7 @@
     "color": { 
         "field": "condition", 
         "type": "nominal", 
-        "title": null },
+        "title": "Diseases" },
     "tooltip": [
       { "field": "year", "title": "Year" },
       { "field": "condiiton", "title": "Disease" },
