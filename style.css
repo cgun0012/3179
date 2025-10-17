@@ -21,7 +21,8 @@ h1 {
 }
 .row {
   display: flex;
-  gap: 20px;              /* space between columns */
+  gap: 20px;
+  padding: 35px 50px;              /* space between columns */
 }
 .content-left, .content-right {
   flex: 1;
