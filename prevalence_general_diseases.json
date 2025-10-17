@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text": "Common Diseases in AU over the Years"},
-  "width": 600,
+  "title": {"text": "Common Diseases in Australia"},
+  "width": 400,
   "height": 350,
   "data": {"url": "Prevalence_of_diseases_in_AU.csv"},
   "mark": {"type":"line", "point":true},
@@ -20,7 +20,7 @@
         "title": "Diseases" },
     "tooltip": [
       { "field": "year", "title": "Year" },
-      { "field": "condiiton", "title": "Disease" },
+      { "field": "condition", "title": "Disease" },
       { "field": "percentage", "title": "Percent", "format": ".2f" }
     ]
   }

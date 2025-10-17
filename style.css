@@ -10,7 +10,6 @@ h1 {
 }
 
 .page {
-    width: 950px;
     background-color: white;
     margin-left:0;
     margin-right:auto;
@@ -27,13 +26,15 @@ h1 {
 .content-left, .content-right {
   flex: 1;
   box-sizing: border-box; /* padding won’t cause overflow */
-  padding-left: 12px;          /* inner breathing room (optional) */
-}
-.content-right {
-  flex: 1;
-  box-sizing: border-box; /* padding won’t cause overflow */
   padding-right: 12px;          /* inner breathing room (optional) */
 }
+.content-left {
+  flex: 1;
+  box-sizing: border-box; /* padding won’t cause overflow */
+  padding-left: 12px;          /* inner breathing room (optional) */
+  align-content: justify;
+}
+
 
 
 
