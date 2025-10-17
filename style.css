@@ -32,7 +32,6 @@ h1 {
   flex: 1;
   box-sizing: border-box; /* padding won’t cause overflow */
   padding-left: 12px;          /* inner breathing room (optional) */
-  align-content: justify;
 }
 
 
