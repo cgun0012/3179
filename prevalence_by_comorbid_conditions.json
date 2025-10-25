@@ -12,7 +12,7 @@
       "axis": { "labelAngle": 0, "title": null }
     },
     "y": { "field": "percentage", "type": "quantitative", "title": "Percentage (%)" },
-    
+  
     "tooltip": [
       { "field": "sex", "title": "Sex" },
       { "field": "diseases", "title": "Disease" },

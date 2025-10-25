@@ -1,27 +1,54 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text": "Common Diseases in Australia"},
-  "width": 400,
+  "width": 500,
   "height": 350,
   "data": {"url": "Prevalence_of_diseases_in_AU.csv"},
-  "mark": {"type":"line", "point":true},
-  "encoding": {
-    "x": {
-      "field": "year",
-      "type": "ordinal",
-      "axis": { "labelAngle": 0, "title": null }
+  "layer": [
+
+    {
+      "mark": {"type": "line", "point": true},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal", "axis": {"labelAngle": 0, "title": null}},
+        "y": {"field": "percentage", "type": "quantitative", "title": "Percentage (%)"},
+        "color": {"field": "condition", "type": "nominal", "title": "Diseases"},
+        "opacity": {
+          "condition": {"test": "datum.condition === 'Mental Health Disorder'", "value": 1},
+          "value": 0.25
+        },
+        "tooltip": [
+          {"field": "year", "title": "Year"},
+          {"field": "condition", "title": "Disease"},
+          {"field": "percentage", "title": "Percent", "format": ".2f"}
+        ]
+      }
     },
-    "y": { "field": "percentage", 
-        "type": "quantitative", 
-        "title": "Percentage (%)" },
-    "color": { 
-        "field": "condition", 
-        "type": "nominal", 
-        "title": "Diseases" },
-    "tooltip": [
-      { "field": "year", "title": "Year" },
-      { "field": "condition", "title": "Disease" },
-      { "field": "percentage", "title": "Percent", "format": ".2f" }
-    ]
+{
+  "transform": [
+    { "filter": "datum.condition === 'Mental Health Disorder'" },
+    { "window": [{"op":"row_number","as":"rn"}], "sort": [{"field":"year","order":"descending"}] },
+    { "filter": "datum.rn==1" },
+    { "calculate": "'Fastest rise among recorded conditions.'", "as":"label" }
+  ],
+  "mark": { "type":"text", "align":"left", "baseline":"bottom", "dx":10, "dy":-10, "fontWeight":700},
+  "encoding": {
+    "x": {"field":"year","type":"ordinal"},
+    "y": {"field":"percentage","type":"quantitative"},
+    "text": {"field":"label"},
+    "color": {"value":"#e91e63"}
   }
+},
+{
+  "transform": [{ "filter": "datum.condition === 'Mental Health Disorder'" }],
+  "mark": { "type":"line", "point": true, "strokeWidth": 3.5 },
+  "encoding": {
+    "x": {"field":"year","type":"ordinal"},
+    "y": {"field":"percentage","type":"quantitative"},
+    "color": {"value":"#e91e63"}
+  }
+}
+
+
+   
+  ]
 }

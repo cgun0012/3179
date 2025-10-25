@@ -56,5 +56,6 @@
         "text": {"field": "pct", "type": "quantitative", "format": ".1f"}
       }
     }
+    
   ]
 }

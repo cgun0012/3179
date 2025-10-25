@@ -10,19 +10,26 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Parisienne&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <div class= "page">
-      <h2> Spreading Mental Health's Awareness in Australia</h2>
-      <div class="column">
-        <div id ="vis3" class="vis-container"></div>
-       
-        <div id="vis4" class="vis-container"></div>
-      </div>
-       
+      <h1> Spreading Mental Health's Awareness in Australia</h1>
       <div class="row">
-         <div id="content-right">
+         <h2> What are the most common disease in Australia?</h2>
+         <p>There are numerous common diseases with varying prevalence in Australia. Amongst them all, mental healthy is quickly posing as a threat due to its steady and steep rise from 10% in 2009 to 18% in 2021, increasing by ~10% in a span of 10 years. </p>
+        <div id ="vis3" class="vis-container"></div>
+        <h2> What are examples of Mental Health Disorders?</h2>
+        <p>There are many types of Mental Health Disorders, with Anxiety and Depression being the most common disorders. </p>
+          <div id="vis4" class="vis-container"></div>
+      </div>
+      
+      
+      <div class="row">
+        <div id="content-right">
           Focusing on the prevalence of mental health illness in Australia in 2021, with an average of ~8-10% across the states. 
           Tasmania (TAS; 9.8%) records the highest percentage of Persons with professionally diagnosed mental health illness, followed closely by South Australia (SA; 9.8%) and Queensland (QLD; 9.6%) respectively.
           While the Northen Territory (NT) shows the least prevalence, which is almost half of Tasmania, at 5.1%.
@@ -32,9 +39,40 @@
       </div>
       
       <div class ="row">
-      <div id="vis2" class="vis-container"></div>
+        <p>Mental health condition is unfortunately very abundant in this day and age, and usually coexist with other health conditions. Thus, mental illness possess symptoms that is most likely serves as  the cause for these diseases</p>
+        <div id="vis2" class="vis-container"></div>
+      </div>
+
+      <div class="column">
+        <div id ="vis7" class="vis-container"></div>
+        <div id ="vis8" class="vis-container"></div>
+      </div>
+
+      <div class="row">
+        <div id="vis6" class="vis-container"></div>
+      </div>
+  
+    <div class="row">
+      <span class="quote">"There is hope, even when your brain tells you there isn't" - John Green </span>
     </div>
+
+    <div class="row">
+      <span class="red">Support services (24 hours, 7 days):</span>
+      <p><b>Lifeline</b>: 13 11 14</p>
+      <p><b>Suicide Call Back Service</b>: 1300 659 467</p> 
+      <p><b>Kids Helpline</b>: 1800 551 800 (for people aged 5 to 25 years)</p>
+      <p><b>MensLine Australia</b>: 1300 789 978</p>
+      <p><b>StandBy - Support After Suicide</b>: 1300 727 247</p>
+      
     </div>
+
+  <p>Author: Celine Gunawan</p>
+        <p>Date: 25/10/2025</p>
+        <div cass="row">
+        <p> Data Sources: AIHW, ABS, Our World Data</p>
+        <p>https://www.abs.gov.au/statistics/health/mental-health/national-study-mental-health-and-wellbeing/latest-release?</p>
+        <p>https://ourworldindata.org/grapher/mental-illnesses-prevalence?time=latest&country=~AUS&tableFilter=countries&tableSearch=Australia</p>
+        <p>https://www.aihw.gov.au/mental-health/overview/prevalence-and-impact-of-mental-illness</p>
   </div>
 
   <script>
@@ -54,11 +92,22 @@
     vegaEmbed("#vis4", vg_5, { actions:false })
       .catch(console.error);
     
-  
     var vg_6 = "prevalence_by_states_age_sex.json";
     vegaEmbed("#vis5", vg_6, { actions:false })
       .catch(console.error);
     
+    var vg_7 = "dealing_with_mental_disorder.json";
+    vegaEmbed("#vis6", vg_7, { actions:false })
+      .catch(console.error);
+    
+    var vg_8 = "psychological_distress_level.json";
+    vegaEmbed("#vis7", vg_8, { actions:false })
+      .catch(console.error);
+
+    var vg_9 = "suicidal_thoughts_and_behaviours.json";
+    vegaEmbed("#vis8", vg_9, { actions:false })
+      .catch(console.error);
+      
   
   </script>
 </body>

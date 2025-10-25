@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Mental Health Condition Prevalence by State, Sex, and Age Group — Australia (states only)",
-  "width": 760,
+  "width": 450,
   "height": 420,
 
   "data": { "url": "prevalence_by_states_age_sex.csv" },
@@ -13,7 +13,7 @@
       "bind": {
         "input": "select",
         "name": "State: ",
-        "options": ["All","ACT","NSW","NT","QLD","SA","Tas","Vic","WA"]
+        "options": ["All","Ausralian Capital Territory","New South Wales","Northern Territory","Queensland","South Australia","Tasmania","Victoria","Western Australia"]
       }
     }
   ],
@@ -57,7 +57,7 @@
   "title": "Sex",
   "scale": {
     "domain": ["Female", "Male"],
-    "range": ["#FFB6C1", "#87CEFA"]   
+    "range": ["#FFC0CB", "#87CEFA"]   
   }      
 },
     "tooltip": [

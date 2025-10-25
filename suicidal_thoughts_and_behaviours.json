@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title" : "Proportion of Individuals with Suicidal Thoughts and Behaviours",
+  "data": { "url": "suicidal_thoughts_and_behaviours.csv", "format": { "type": "csv" } },
+  "layer": [
+    {
+      "mark": { "type": "bar" },
+      "encoding": {
+        "x": { "field": "outcome", "type": "nominal", "axis": { "title": "Outcome" } },
+        "y": { "field": "percent", "type": "quantitative", "title": "Percent" },
+        "color": { "field": "sex", "type": "nominal" },
+        "tooltip": [
+          { "field": "outcome", "type": "nominal" },
+          { "field": "sex", "type": "nominal" },
+          { "field": "percent", "type": "quantitative" },
+          { "field": "ci_low", "type": "quantitative", "title": "CI low" },
+          { "field": "ci_high", "type": "quantitative", "title": "CI high" }
+        ]
+      }
+    }
+
+  ]
+}
