@@ -1,0 +1,60 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 450,
+  "height": 380,
+  "title": {
+    "text": "Mental illness prevalence — Australia",
+    "subtitle": {"expr": "Years"}
+  },
+
+  "data": { "url": "au_mental_illness_prevalence_1990_2021.csv" },
+
+  "params": [
+    {
+      "name": "Years",
+      "value": 2021,                       
+      "bind": {"input": "range", "min": 1990, "max": 2021, "step": 1}
+    }
+  ],
+
+  "transform": [
+    { "calculate": "toNumber(datum['Year'])", "as": "yearNum" },
+    { "calculate": "toNumber(datum['Percentage'])", "as": "pct" },
+    { "filter": "datum.yearNum == Years" }
+  ],
+
+  "layer": [
+    {
+      "mark": {"type": "bar", "cornerRadiusEnd": 3},
+      "encoding": {
+        "x": {
+          "field": "Mental Illness",
+          "type": "nominal",
+          "title": null,
+          "sort": "-y",
+          "axis": {"labelAngle": 0}
+        },
+        "y": {
+          "field": "pct",
+          "type": "quantitative",
+          "title": "Prevalence (%)",
+          "axis": {"format": ".1f"}
+        },
+        "color": {"field": "Mental Illness", "type": "nominal", "legend": null},
+        "tooltip": [
+          {"field": "Mental Illness"},
+          {"field": "yearNum", "title": "Year"},
+          {"field": "pct", "title": "Prevalence (%)", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "dy": -6},
+      "encoding": {
+        "x": {"field": "Mental Illness", "type": "nominal", "sort": "-y"},
+        "y": {"field": "pct", "type": "quantitative"},
+        "text": {"field": "pct", "type": "quantitative", "format": ".1f"}
+      }
+    }
+  ]
+}

@@ -3,11 +3,16 @@
   "width": 800,
   "height": 450,
   "title": "Prevalence of Diagnosed Mental Illness (%) — Australia (2021)",
-  "projection": {"type": "mercator"},
-
+ 
+  "projection": {
+    "type": "albers",
+    "parallels": [-18, -36],
+    "rotate": [-132, 0, 0],
+    "center": [0, 0]
+  },
   "layer": [
     {
-      "data": { "graticule": { "step": [15,15], "extent": [[110,-46],[156,-8]] } },
+      "data": { "graticule": {  "extent": [[110,-46],[156,-8]] } },
       "mark": { "type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.6, "fill": null }
     },
     {

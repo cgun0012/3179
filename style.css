@@ -1,4 +1,5 @@
-* { box-sizing: border-box; }
+* { box-sizing: border-box; 
+}
 
 body {
     margin: 0;                 
@@ -10,21 +11,43 @@ h1 {
 }
 
 .page {
-    background-color: white;
-    margin-left:0;
-    margin-right:auto;
+    background-color: lightblue;
+    margin-left:50px;
+    margin-right:50px;
+    
+
+}
+h2 {
     padding: 35px 50px 50px;
 }
 .vis-container {
     width: 100%;
-    margin:0;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 16px;
+}
+.column {
+  display: flex;
+  background-color: aliceblue;
+  gap: 20px;
+  border-radius: 16px;
+  padding: 35px 50px;       
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;      /* space between columns */
 }
 .row {
-  display: flex;
+  background-color: aliceblue;
   gap: 20px;
-  padding: 35px 50px;              /* space between columns */
+  border-radius: 16px;
+  padding: 35px 50px;       
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;      /* space between columns */
 }
-.content-left, .content-right {
+.content-right {
   flex: 1;
   box-sizing: border-box; /* padding won’t cause overflow */
   padding-right: 12px;          /* inner breathing room (optional) */

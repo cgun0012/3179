@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Mental Health Condition Prevalence by State, Sex, and Age Group — Australia (states only)",
+  "width": 760,
+  "height": 420,
+
+  "data": { "url": "prevalence_by_states_age_sex.csv" },
+
+  "params": [
+    {
+      "name": "stateSel",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "name": "State: ",
+        "options": ["All","ACT","NSW","NT","QLD","SA","Tas","Vic","WA"]
+      }
+    }
+  ],
+
+  "transform": [
+
+    { "calculate": "toNumber(datum.percentage)", "as": "pct" },
+    { "calculate": "lower(trim(datum.states))", "as": "stateClean" },
+    { "calculate": "indexof(datum.diagnosis, 'Has a mental health condition') >= 0", "as": "diagHas" },
+    { "calculate": "toNumber(split(datum['age_group'], ' ')[0])", "as": "age_start" },
+
+    { "filter": "datum.diagHas" },
+
+
+    { "filter": "datum.stateClean != 'australia'" },
+
+
+    { "filter": "stateSel == 'All' || datum.stateClean == lower(stateSel)" }
+  ],
+
+  "mark": { "type": "bar" },
+
+  "encoding": {
+    "x": {
+      "field": "age_group",
+      "type": "nominal",
+      "title": "Age group",
+      "axis": { "labelAngle": 0 },
+      "sort": { "field": "age_start", "order": "ascending" }
+    },
+    "y": {
+      "aggregate": "sum",
+      "field": "pct",
+      "type": "quantitative",
+      "title": "Prevalence (%)",
+      "axis": { "format": ".1f" }
+    },
+    "color": {
+  "field": "sex",
+  "type": "nominal",
+  "title": "Sex",
+  "scale": {
+    "domain": ["Female", "Male"],
+    "range": ["#FFB6C1", "#87CEFA"]   
+  }      
+},
+    "tooltip": [
+      { "field": "states", "title": "State" },
+      { "field": "age_group", "title": "Age group" },
+      { "field": "sex", "title": "Sex" },
+      { "aggregate": "sum", "field": "pct", "title": "Prevalence (%)", "format": ".1f" }
+    ]
+  }
+}
