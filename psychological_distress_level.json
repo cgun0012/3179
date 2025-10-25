@@ -1,6 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Psychological Distress Level Proportion by Age Group and Sex",
+  "width":300,
+  "height":300,
   "data": {
     "values": [
       {"age_group":"16–24","sex":"Male","percentage":18},
@@ -55,10 +57,7 @@
         ]
       }
     }
-  ],
+  ]
 
-  "config": {
-    "view": {"stroke": null},
-    "axis": {"labelFontSize": 12, "titleFontSize": 12}
-  }
+
 }

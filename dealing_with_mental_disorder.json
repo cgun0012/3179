@@ -4,28 +4,24 @@
   "width": 560,
   "height": 200,
   "data": {"url": "dealing_with_mental_disorder.csv"},
-  
+
+  "transform": [
+    {"joinaggregate": [{"op": "max", "field": "Percent", "as": "max_percent"}]}
+  ],
+
   "layer": [
     {
-      "mark": {"type": "bar", "cornerRadiusEnd": 3},
+      "mark": {"type": "bar"},
       "encoding": {
-        "x": {
-          "field": "Percent",
-          "type": "quantitative",
-          "title": "Percent (%)",
-          "axis": {"format": ".1f", "grid": true}
+        "x": {"field": "Percent", "type": "quantitative", "title": "Percent (%)"},
+        "y": {"field": "Method", "type": "nominal"},
+        "strokeWidth": {
+          "condition": {"test": "datum.Percent === datum.max_percent", "value": 2},
+          "value": 0
         },
-        "y": {
-          "field": "Method",
-          "type": "nominal",
-          "title": null,
-          "sort": "-x",
-          "axis": {"labelLimit": 260}
-        },
-        "color": {"value": "#4e79a7"},
         "tooltip": [
           {"field": "Method", "title": "Method"},
-          {"field": "Percent", "title": "Percentage (%)", "format": ".1f"}
+          {"field": "Percent", "title": "Percentage (%)"}
         ]
       }
     },
@@ -33,8 +29,16 @@
       "mark": {"type": "text", "align": "left", "dx": 4},
       "encoding": {
         "x": {"field": "Percent", "type": "quantitative"},
-        "y": {"field": "Method", "type": "nominal", "sort": "-x"},
-        "text": {"field": "Percent", "type": "quantitative", "format": ".1f"}
+        "y": {"field": "Method", "type": "nominal"},
+        "text": {"field": "Percent", "type": "quantitative", "format": ".0f"},
+        "fontWeight": {
+          "condition": {"test": "datum.Percent === datum.max_percent", "value": "bold"},
+          "value": "normal"
+        },
+        "color": {
+          "condition": {"test": "datum.Percent === datum.max_percent", "value": "black"},
+          "value": "#333"
+        }
       }
     }
   ]

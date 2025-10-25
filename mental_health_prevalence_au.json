@@ -28,7 +28,7 @@
         { "calculate": "toNumber(datum.prevalence_percent)", "as": "prevalence_percent" },
         { "filter": "isValid(datum.prevalence_percent)" }
       ],
-      "mark": { "type": "geoshape", "stroke": "#94a3b8", "strokeWidth": 0.6 },
+      "mark": { "type": "geoshape", "stroke": "#94a3b8"},
       "encoding": {
         "color": {
           "field": "prevalence_percent", "type": "quantitative",

@@ -26,15 +26,12 @@
         "x": {
           "field": "Mental Illness",
           "type": "nominal",
-          "title": null,
-          "sort": "-y",
           "axis": {"labelAngle": 0}
         },
         "y": {
           "field": "pct",
           "type": "quantitative",
-          "title": "Prevalence (%)",
-          "axis": {"format": ".1f"}
+          "title": "Prevalence (%)"
         },
 
         "tooltip": [
