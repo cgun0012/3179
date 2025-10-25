@@ -1,31 +1,27 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 450,
-  "height": 380,
+  "width": 400,
+  "height":430,
   "title": {
     "text": "Mental illness prevalence — Australia",
     "subtitle": {"expr": "Years"}
   },
-
   "data": { "url": "au_mental_illness_prevalence_1990_2021.csv" },
-
   "params": [
     {
       "name": "Years",
-      "value": 2021,                       
+      "value": 2021,
       "bind": {"input": "range", "min": 1990, "max": 2021, "step": 1}
     }
   ],
-
   "transform": [
     { "calculate": "toNumber(datum['Year'])", "as": "yearNum" },
     { "calculate": "toNumber(datum['Percentage'])", "as": "pct" },
     { "filter": "datum.yearNum == Years" }
   ],
-
   "layer": [
     {
-      "mark": {"type": "bar", "cornerRadiusEnd": 3},
+      "mark": { "type": "bar" },
       "encoding": {
         "x": {
           "field": "Mental Illness",
@@ -40,7 +36,7 @@
           "title": "Prevalence (%)",
           "axis": {"format": ".1f"}
         },
-        "color": {"field": "Mental Illness", "type": "nominal", "legend": null},
+
         "tooltip": [
           {"field": "Mental Illness"},
           {"field": "yearNum", "title": "Year"},
@@ -49,13 +45,62 @@
       }
     },
     {
-      "mark": {"type": "text", "dy": -6},
+      "transform": [{ "filter": "datum['Mental Illness'] === 'Anxiety Disorders'" }],
+      "mark": { "type": "bar" },
       "encoding": {
-        "x": {"field": "Mental Illness", "type": "nominal", "sort": "-y"},
-        "y": {"field": "pct", "type": "quantitative"},
-        "text": {"field": "pct", "type": "quantitative", "format": ".1f"}
+        "x": { "field": "Mental Illness", "type": "nominal" },
+        "y": { "field": "pct", "type": "quantitative" },
+        "color": { "value": "#1e40af" }
+      }
+    },
+    {
+      "transform": [{ "filter": "datum['Mental Illness'] === 'Depressive Disorders'" }],
+      "mark": { "type": "bar" },
+      "encoding": {
+        "x": { "field": "Mental Illness", "type": "nominal" },
+        "y": { "field": "pct", "type": "quantitative" },
+        "color": { "value": "#4169E1" }
+      }
+    },
+    {
+      "transform": [
+        { "filter": "datum['Mental Illness'] === 'Anxiety Disorders'" },
+        { "calculate": "'Anxiety: ' + format(datum.pct, '.1f') + '% ' ", "as": "label" }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "bottom",
+        "dx": 10,
+        "dy": -10,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "x": { "field": "Mental Illness", "type": "nominal" },
+        "y": { "field": "pct", "type": "quantitative" },
+        "text": { "field": "label" },
+        "color": { "value": "#1e40af" }
+      }
+    },
+    {
+      "transform": [
+        { "filter": "datum['Mental Illness'] === 'Depressive Disorders'" },
+        { "calculate": "'Depression: ' + format(datum.pct, '.1f') + '% ' ", "as": "label" }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "bottom",
+        "dx": 10,
+        "dy": -10,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "x": { "field": "Mental Illness", "type": "nominal" },
+        "y": { "field": "pct", "type": "quantitative" },
+        "text": { "field": "label" },
+        "color": { "value":"#4169E1" }
       }
     }
-    
   ]
 }

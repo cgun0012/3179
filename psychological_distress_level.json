@@ -1,33 +1,64 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": { "values": [
-    {"age_group":"16-24","sex":"Male","percentage":18},
-    {"age_group":"16-24","sex":"Female","percentage":34},
-    {"age_group":"25-34","sex":"Male","percentage":16},
-    {"age_group":"25-34","sex":"Female","percentage":19},
-    {"age_group":"35-44","sex":"Male","percentage":12},
-    {"age_group":"35-44","sex":"Female","percentage":19},
-    {"age_group":"45-54","sex":"Male","percentage":13},
-    {"age_group":"45-54","sex":"Female","percentage":17},
-    {"age_group":"55-64","sex":"Male","percentage":14},
-    {"age_group":"55-64","sex":"Female","percentage":18},
-    {"age_group":"65-74","sex":"Male","percentage":12},
-    {"age_group":"65-74","sex":"Female","percentage":15},
-    {"age_group":"75-85","sex":"Male","percentage":10},
-    {"age_group":"75-85","sex":"Female","percentage":11}
-  ]},
-  "mark": { "type": "bar", "tooltip": true },
-  "encoding": {
-    "y": { "field": "age_group", "type": "nominal", "axis": { "title": "Age group" } },
-    "x": { "field": "percentage", "type": "quantitative" },
-    "color": {
-  "field": "sex",
-  "type": "nominal",
-  "title": "Sex",
-  "scale": {
-    "domain": ["Female", "Male"],
-    "range": ["#FFC0CB", "#87CEFA"]   
-  }      
-}
+  "title": "Psychological Distress Level Proportion by Age Group and Sex",
+  "data": {
+    "values": [
+      {"age_group":"16–24","sex":"Male","percentage":18},
+      {"age_group":"16–24","sex":"Female","percentage":34},
+      {"age_group":"25–34","sex":"Male","percentage":16},
+      {"age_group":"25–34","sex":"Female","percentage":19},
+      {"age_group":"35–44","sex":"Male","percentage":12},
+      {"age_group":"35–44","sex":"Female","percentage":19},
+      {"age_group":"45–54","sex":"Male","percentage":13},
+      {"age_group":"45–54","sex":"Female","percentage":17},
+      {"age_group":"55–64","sex":"Male","percentage":14},
+      {"age_group":"55–64","sex":"Female","percentage":18},
+      {"age_group":"65–74","sex":"Male","percentage":12},
+      {"age_group":"65–74","sex":"Female","percentage":15},
+      {"age_group":"75–85","sex":"Male","percentage":10},
+      {"age_group":"75–85","sex":"Female","percentage":11}
+    ]
+  },
+
+  "layer": [
+    {
+      "mark": {"type": "rule", "strokeWidth": 2},
+      "encoding": {
+        "y": {
+          "field": "age_group",
+          "type": "nominal",
+          "axis": {"title": "Age group"},
+          "sort": ["16–24","25–34","35–44","45–54","55–64","65–74","75–85"]
+        },
+        "x": {"aggregate": "min", "field": "percentage", "type": "quantitative"},
+        "x2": {"aggregate": "max", "field": "percentage", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {"type": "point", "filled": true, "size": 120, "tooltip": true},
+      "encoding": {
+        "y": {
+          "field": "age_group",
+          "type": "nominal",
+          "sort": ["16–24","25–34","35–44","45–54","55–64","65–74","75–85"]
+        },
+        "x": {
+          "field": "percentage",
+          "type": "quantitative",
+          "axis": {"title": "Percent"}
+        },
+        "shape": {"field": "sex", "type": "nominal"},
+        "tooltip": [
+          {"field": "age_group", "title": "Age group"},
+          {"field": "sex", "title": "Sex"},
+          {"field": "percentage", "title": "Percent", "type": "quantitative"}
+        ]
+      }
+    }
+  ],
+
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"labelFontSize": 12, "titleFontSize": 12}
   }
 }

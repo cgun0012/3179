@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 500,
+  "width": 400,
   "height": 450,
   "title": "Prevalence of Diagnosed Mental Illness (%) — Australia (2021)",
  

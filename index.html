@@ -18,34 +18,70 @@
 <body>
     <div class= "page">
       <h1> Spreading Mental Health's Awareness in Australia</h1>
-      <div class="row">
+      <div class="column">
+        <div id="row">
          <h2> What are the most common disease in Australia?</h2>
-         <p>There are numerous common diseases with varying prevalence in Australia. Amongst them all, mental healthy is quickly posing as a threat due to its steady and steep rise from 10% in 2009 to 18% in 2021, increasing by ~10% in a span of 10 years. </p>
+         <p>There are numerous common diseases with varying prevalence in Australia. Amongst them all, mental healthy is quickly posing as a threat due to its steady and steep rise from 10% in 2009 to 18% in 2021, increasing by ~10% only in a span of 10 years.
+          Although Arthritis and Hypertension are still leading, Mental Health Illnesses are also climbing its way up. </p>
         <div id ="vis3" class="vis-container"></div>
-        <h2> What are examples of Mental Health Disorders?</h2>
-        <p>There are many types of Mental Health Disorders, with Anxiety and Depression being the most common disorders. </p>
-          <div id="vis4" class="vis-container"></div>
+        </div>
+        <div id="column">
+          <div id ="row">
+            <h2> Examples of Mental Health Disorders?</h2>
+            <p>The data below records data of several most common mental health disorders, namingly Anxiety, Depression, Bipolar, Eating disorder and Schizophrenia. </p>
+            <p>Anxiety and Depression constantly kept the title of the highest prevalence respectively, with the time period from 1990 to 2021. The number of anxiety disorder increased 
+              from 5.8% to 6.2%, while depression disorder increased from 4.6% to 4.9%
+            </p>
+            <div id ="vis4" class="vis-container"></div>
+          </div>
+        </div>
       </div>
-      
+ 
       
       <div class="row">
-        <div id="content-right">
+          <h2> What about the Prevalence of Mental Health Disorders by States and Territories?</h2>
+          <p>
           Focusing on the prevalence of mental health illness in Australia in 2021, with an average of ~8-10% across the states. 
           Tasmania (TAS; 9.8%) records the highest percentage of Persons with professionally diagnosed mental health illness, followed closely by South Australia (SA; 9.8%) and Queensland (QLD; 9.6%) respectively.
-          While the Northen Territory (NT) shows the least prevalence, which is almost half of Tasmania, at 5.1%.
-        </div>
+          While the Northen Territory (NT) shows the least prevalence, which is almost half of Tasmania, at 5.1%.</p>
+          <p>   
+          By the distribution of mental health disorders by states, age and sex, females consistently take up more percentage than male, and teenagers (10-19 years old) took the spot with the highest proportion across all age groups for almost states. 
+          Excluding the Northern Territory (50-59 years old), Tasmania (40-49 years old) and Victoria (90-99 years old).
+        </p>
+        <div class="column">
         <div id="vis" class="vis-container"></div>
         <div id="vis5" class="vis-container"></div>
+        </div>
       </div>
       
       <div class ="row">
-        <p>Mental health condition is unfortunately very abundant in this day and age, and usually coexist with other health conditions. Thus, mental illness possess symptoms that is most likely serves as  the cause for these diseases</p>
+         <h2>  
+            The Relation between Mental Health and Physical Health
+          </h2>
+          <p>
+            People living with mental illness are <b>more likely to possess poorer physical health</b> than the general population. The bar chart below shows the data for people with mental illness that also struggles with one-or-more long-term health conditions for both genders.
+            Mental Health is proven to affect physical health and vice versa although the latter is less common. Although the relationship seems to be indirect, essentially through a domino effect. For instance, the most common symptoms of poor mental health is lack of energy, this will then lead to reduced 
+            physical activity, and further affecting the physical state of the body, hence the domino effect. Thus, the life expectancy for people with mental illness is also lower than the general population. 
+            The <span class='red'>most common</span> coexisting disease based on the data is Dementia, again, dominated by female, which is almost reaching the halfway mark. 
+            On the other hand, cancer is recorded to be the least associated disease with mental health.
+          </p>
+        
         <div id="vis2" class="vis-container"></div>
       </div>
 
       <div class="column">
+        <div class="row">
+          <h2>Cause: </h2>
         <div id ="vis7" class="vis-container"></div>
+        <p>Psychological distress level is also deemed to be highly associated with the risk factor of possessing a mental health condition, further leading to harmful and dangerous behaviours </p>
+        </div>
+        <div class="column">
+          <div id="row">
+          <h2>Impact: </h2>
+        
         <div id ="vis8" class="vis-container"></div>
+          </div>
+        </div>
       </div>
 
       <div class="row">
@@ -73,7 +109,8 @@
         <p>https://www.abs.gov.au/statistics/health/mental-health/national-study-mental-health-and-wellbeing/latest-release?</p>
         <p>https://ourworldindata.org/grapher/mental-illnesses-prevalence?time=latest&country=~AUS&tableFilter=countries&tableSearch=Australia</p>
         <p>https://www.aihw.gov.au/mental-health/overview/prevalence-and-impact-of-mental-illness</p>
-  </div>
+   
+      </div>
 
   <script>
     var vg_1 = "mental_health_prevalence_au.json";
