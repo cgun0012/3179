@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Ways to deal with Mental Health Illness"},
+  "width": 560,
+  "height": 200,
+  "data": {"url": "dealing_with_mental_disorder.csv"},
+
+  "transform": [
+    { "calculate": "toNumber(datum.Percentage)", "as": "pct" }
+  ],
+
+  "layer": [
+    {
+      "mark": {"type": "bar", "cornerRadiusEnd": 3},
+      "encoding": {
+        "x": {
+          "field": "pct",
+          "type": "quantitative",
+          "title": "Percentage (%)",
+          "axis": {"format": ".1f", "grid": true}
+        },
+        "y": {
+          "field": "Method",
+          "type": "nominal",
+          "title": null,
+          "sort": "-x",
+          "axis": {"labelLimit": 220}
+        },
+        "color": {"value": "#4e79a7"},
+        "tooltip": [
+          {"field": "Method", "title": "Method"},
+          {"field": "pct", "title": "Percentage (%)", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "dx": "4"},
+      "encoding": {
+        "x": {"field": "pct", "type": "quantitative"},
+        "y": {"field": "Method", "type": "nominal", "sort": "-x"},
+        "text": {"field": "pct", "type": "quantitative", "format": ".1f"}
+    }
+    }
+  ]
+}
+

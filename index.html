@@ -20,7 +20,6 @@
        
         <div id="vis4" class="vis-container"></div>
       </div>
-      </div>
        
       <div class="row">
          <div id="content-right">
@@ -31,24 +30,19 @@
         <div id="vis" class="vis-container"></div>
         <div id="vis5" class="vis-container"></div>
       </div>
-      <div class="row">
-        <div id ="content-right">
-          In 2018-19, females are deemed to be more sensitive to mental health conditions as supported by data with a quite significant difference of ~11-13% difference of rate as compared to male. The prevalence of mental health illness amongst females lingers around ~42-44%,
-          with men's rate lingering around ~30-33%.
-        </div>
-        
-      </div>
+      
       <div class ="row">
       <div id="vis2" class="vis-container"></div>
     </div>
     </div>
+  </div>
 
   <script>
     var vg_1 = "mental_health_prevalence_au.json";
     vegaEmbed("#vis", vg_1, { actions:false })
       .catch(console.error);
 
-    var vg_3 = "comorbid_conditions.json";
+    var vg_3 = "prevalence_by_comorbid_conditions.json";
     vegaEmbed("#vis2", vg_3, { actions:false })
       .catch(console.error);
 
@@ -60,7 +54,7 @@
     vegaEmbed("#vis4", vg_5, { actions:false })
       .catch(console.error);
     
-      
+  
     var vg_6 = "prevalence_by_states_age_sex.json";
     vegaEmbed("#vis5", vg_6, { actions:false })
       .catch(console.error);
